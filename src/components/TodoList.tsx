@@ -10,7 +10,7 @@ interface TodoListProps {
 export const TodoList: React.FC<TodoListProps> = ({ todos, toggleHandler, removeHandler }) => {
   
   if (todos.length === 0) {
-    return <p className="center">Активных задач пока нет</p>
+    return <p className="center">No active todo</p>
   }
   
   return (

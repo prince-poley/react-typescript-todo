@@ -24,7 +24,7 @@ export const TodoForm: React.FC<TodoFormProps> = ({ addHandler }) => {
         onChange={changeHandler}
         onKeyPress={onKeyPressHandler}
         value={title}
-        placeholder="Введите название задачи"
+        placeholder="Enter Todo Title"
         type="text" 
       />
     </div>
